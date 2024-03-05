@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es6", "es2015", "dom"],
+    "declaration": true,
+    "outDir": "lib",
+    "rootDir": "src",
+    "strict": true,
+    "types": ["node"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["./src/@types", "node_modules/@types"],
+    "declarationDir": "./src/@types",
+    "allowJs": true,
+    "checkJs": false,
+    "strictPropertyInitialization": false
+  },
+  "include": ["./src/**/*", "./src/**/*.d.ts"]
+}
